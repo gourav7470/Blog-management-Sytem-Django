@@ -1,0 +1,28 @@
+# Ignore virtual environment
+.venv/
+
+# Python-related ignores
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Django-related ignores
+db.sqlite3
+*.log
+media/
+staticfiles/
+node_modules/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore coverage reports
+.coverage
+htmlcov/
